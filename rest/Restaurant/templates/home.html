@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        .hero {
+            background: url('restaurant.jpg') no-repeat center center/cover;
+            color: #fff;
+            height: 300px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .content .box {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 20px;
+            width: calc(33% - 40px);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Restaurant</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">About us</a>
+        <a href="#">Contacts</a>
+    </nav>
+    <main>
+        <div class="hero">
+            <h1>Welcome to Restaurant</h1>
+        </div>
+        <div class="content">
+            <div class="box">
+                <h2>Menu</h2>
+                <p>We offer a variety of dishes to suit all tastes, made with the freshest ingredients available.</p>
+            </div>
+            <div class="box">
+                <h2>About us</h2>
+                <p>Our restaurant is the perfect place for your family and romantic dinners.</p>
+            </div>
+            <div class="box">
+                <h2>Contacts</h2>
+                <p>Contact us by phone: +7 123 456 7890 or visit us at 1, Example St.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>
