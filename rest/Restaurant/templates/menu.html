@@ -30,14 +30,20 @@
         }
         main {
             padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         .menu-section {
             margin: 20px 0;
+            text-align: center;
+            width: 100%;
         }
         .menu-section h2 {
             color: #333;
             border-bottom: 2px solid #444;
             padding-bottom: 10px;
+            display: inline-block;
         }
         .menu-item {
             display: flex;
@@ -45,13 +51,22 @@
             margin: 10px 0;
             padding: 10px 0;
             border-bottom: 1px solid #ddd;
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
         }
         .menu-item h3 {
             margin: 0;
+            flex: 1;
         }
         .menu-item p {
             margin: 0;
             color: #666;
+            flex: 2;
+        }
+        .menu-item span {
+            flex: 1;
+            text-align: right;
         }
         footer {
             background-color: #333;
@@ -67,8 +82,8 @@
         <h1>Restaurant Example</h1>
     </header>
     <nav>
-        <a href=>Home</a>
-        <a href="">Menu</a>
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
         <a href="#">About Us</a>
         <a href="#">Contact</a>
     </nav>
